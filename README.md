@@ -1,4 +1,4 @@
-# Accelerate-Agentic-AI
+# Agentic AI Accelerator
 
 ## Course Overview
 
@@ -112,3 +112,23 @@ architect, deploy, and scale sophisticated AI agent solutions.
 - Fine-Tuning Prompts for Optimal Performance
 - Implementing Chat Flow and Tool Integration
 - Ensuring Responsible AI Practices with Content Safety
+
+## Platform Comparison: M365 Copilot Chat vs Copilot Studio vs Microsoft Foundry
+
+| Aspect | M365 Copilot Chat | Copilot Studio | Microsoft Foundry (Azure AI Foundry) |
+|--------|-------------------|-----------------|--------------------------------------|
+| **URL** | [M365 Copilot Chat](https://m365.cloud.microsoft/chat) | [Copilot Studio](https://copilotstudio.microsoft.com) | [Microsoft Foundry](https://ai.azure.com) |
+| **License** | Microsoft 365 Copilot Pro or M365 subscription with Copilot add-on | Included with Microsoft 365 or standalone license | Azure subscription (pay-as-you-go) |
+| **Code Requirement** | No-Code | No-Code / Low-Code | Pro-Code |
+| **Agent Types** | Retrieval | Retrieval, Task, Autonomous | Retrieval, Task, Autonomous |
+| **Primary Use Case** | Enterprise-wide conversational AI integrated with M365 apps (Word, Excel, Teams, etc.) | Custom agent building with business logic, workflows, and actions for enterprise scenarios | Advanced AI development, multi-agent systems, RAG pipelines, fine-tuning, and research |
+| **Agent Building** | Native M365 integration | Declarative agents with visual designer and custom actions | SDK-based (AutoGen, Semantic Kernel) or Azure AI Agent Service |
+| **Development Approach** | Conversational AI in familiar M365 interface | Visual builder with action orchestration | Code-first development with advanced customization |
+| **Knowledge Integration** | Semantic Index for M365 data | Semantic Index, knowledge bases, custom data | RAG pipelines, multiple data sources, custom embeddings |
+| **Extensibility** | Limited to M365 ecosystem | Power Platform, custom connectors, Microsoft 365 SDK | Full Azure ecosystem, custom models, fine-tuning |
+| **Scalability** | Enterprise scale within M365 | Department/Organization level | Enterprise to global scale |
+| **Governance & Security** | Built-in M365 compliance and DLP | Built-in governance, role-based access | Enterprise security, content safety, compliance controls |
+| **Cost Model** | Per-user licensing | Per-user licensing or standalone | Consumption-based (API calls, compute) |
+| **Target Audience** | M365 users, business professionals | Business analysts, citizen developers, IT pros | Data scientists, developers, AI engineers |
+| **Learning Curve** | Low - familiar M365 interface | Low-to-Medium - visual designer | High - requires programming expertise |
+| **Ideal For** | Quick productivity gains in M365 workflows | Custom business logic and departmental solutions | Complex AI applications, research, cutting-edge AI capabilities |
