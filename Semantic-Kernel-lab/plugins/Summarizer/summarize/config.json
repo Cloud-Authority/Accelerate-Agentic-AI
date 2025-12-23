@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "description": "Summarizes text into 3 bullet points",
+  "type": "completion",
+  "completion": {
+    "max_tokens": 200,
+    "temperature": 0.7,
+    "top_p": 0.8
+  },
+  "input": {
+    "parameters": [
+      {
+        "name": "input",
+        "description": "The text to summarize",
+        "default": ""
+      }
+    ]
+  }
+}
